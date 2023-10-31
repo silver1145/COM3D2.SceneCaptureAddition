@@ -1,0 +1,1344 @@
+<Translations>
+	<Translation language="English">
+		<AnalogGlitch>
+			<scanLineJitter>Scan Line Jitter</scanLineJitter>
+			<verticalJump>Vertical Jump</verticalJump>
+			<horizontalShake>Horizontal Shake</horizontalShake>
+			<colorDrift>Color Drift</colorDrift>
+		</AnalogGlitch>
+		<Antialiasing>
+			<mode>Technique</mode>
+			<dlaaSharp>Sharp</dlaaSharp>
+			<showGeneratedNormals>Show Generated Normals</showGeneratedNormals>
+			<blurRadius>Blur Radius</blurRadius>
+			<edgeSharpness>Edge Sharpness</edgeSharpness>
+			<edgeThreshold>Edge Threshold</edgeThreshold>
+			<edgeThresholdMin>Edge Threshold Min</edgeThresholdMin>
+			<offsetScale>Offset Scale</offsetScale>
+		</Antialiasing>
+		<Bloom>
+			<hdr>HDR</hdr>
+			<screenBlendMode>Blend</screenBlendMode>
+			<tweakMode>Mode</tweakMode>
+			<quality>Complex</quality>
+			<bloomIntensity>Intensity</bloomIntensity>
+			<bloomThreshhold>Threshhold</bloomThreshhold>
+			<bloomBlurIterations>Blur Iterations</bloomBlurIterations>
+			<sepBlurSpread>Blur Spread</sepBlurSpread>
+			<bloomThreshholdColor>Threshhold Color</bloomThreshholdColor>
+			<lensflareMode>Lensflare Mode</lensflareMode>
+			<lensflareIntensity>Lensflare Intensity</lensflareIntensity>
+			<lensFlareSaturation>Lensflare Saturation</lensFlareSaturation>
+			<lensflareThreshold>Lensflare Threshold</lensflareThreshold>
+			<flareRotation>Lensflare Rotation</flareRotation>
+			<blurWidth>Blur Width</blurWidth>
+			<hollyStretchWidth>Hollywood Blur Stretch Width</hollyStretchWidth>
+			<hollywoodFlareBlurIterations>Hollywood Blur Iterations</hollywoodFlareBlurIterations>
+			<flareColorA>Flare Color A</flareColorA>
+			<flareColorB>Flare Color B</flareColorB>
+			<flareColorC>Flare Color C</flareColorC>
+			<flareColorD>Flare Color D</flareColorD>
+		</Bloom>
+		<Blur>
+			<blurIterations>Iterations</blurIterations>
+			<blurSize>Size</blurSize>
+			<downsample>Downsample</downsample>
+		</Blur>
+		<Bokeh>
+			<focusDistance>Focus Distance</focusDistance>
+			<fNumber>f-Number</fNumber>
+			<kernelSize>Kernel Size</kernelSize>
+			<useCameraFov>Use Camera FOV</useCameraFov>
+			<focalLength>Focal Length</focalLength>
+			<visualize>Visualize</visualize>
+		</Bokeh>
+		<ColorCorrectionCurves>
+			<mode>Advanced</mode>
+			<saturation>Saturation</saturation>
+			<redChannel>Red Channel</redChannel>
+			<greenChannel>Green Channel</greenChannel>
+			<blueChannel>Blue Channel</blueChannel>
+			<depthRedChannel>Red Channel Depth</depthRedChannel>
+			<depthGreenChannel>Green Channel Depth</depthGreenChannel>
+			<depthBlueChannel>Blue Channel Depth</depthBlueChannel>
+			<zCurve>Z Curve</zCurve>
+			<selectiveCc>Selective Color Correction</selectiveCc>
+		</ColorCorrectionCurves>
+		<ColorCorrectionLut>
+			<LUT>Texture</LUT>
+			<ApplyLut>Apply Lut</ApplyLut>
+		</ColorCorrectionLut>
+		<Contrast>
+			<intensity>Intensity</intensity>
+			<threshold>Threshold</threshold>
+			<blurSpread>Blur Spread</blurSpread>
+		</Contrast>
+		<Crease>
+			<intensity>Intensity</intensity>
+			<softness>Softness</softness>
+			<spread>Spread</spread>
+		</Crease>
+		<DepthOfField>
+			<visualizeFocus>Visualize Focus</visualizeFocus>
+			<focalLength>Focal Length</focalLength>
+			<focalSize>Focal Size</focalSize>
+			<aperture>Aperature</aperture>
+			<blurType>DX11 Blur</blurType>
+			<blurSampleCount>Blur Sample Count</blurSampleCount>
+			<maxBlurSize>Max Blur Size</maxBlurSize>
+			<highResolution>High Resolution</highResolution>
+			<nearBlur>Near Blur</nearBlur>
+			<foregroundOverlap>Foreground Overlap</foregroundOverlap>
+			<dx11BokehScale>Bokeh Scale</dx11BokehScale>
+			<dx11BokehIntensity>Bokeh Intensity</dx11BokehIntensity>
+			<dx11BokehThreshhold>Bokeh Threshhold</dx11BokehThreshhold>
+			<dx11SpawnHeuristic>Spawn Heuristic</dx11SpawnHeuristic>
+		</DepthOfField>
+		<DigitalGlitch>
+			<intensity>Intensity</intensity>
+		</DigitalGlitch>
+		<EdgeDetect>
+			<edgeDetectMode>Mode</edgeDetectMode>
+			<sensitivityNormals>Sensitivity Normals</sensitivityNormals>
+			<edgeExp>Edges Exponent</edgeExp>
+			<sensitivityDepth>Sensitivity Depth</sensitivityDepth>
+			<lumThreshold>Luminance Threshold</lumThreshold>
+			<sampleDist>Sample Distance</sampleDist>
+			<edgesOnly>Edges Only</edgesOnly>
+			<edgesOnlyBgColor>Edges Only Background</edgesOnlyBgColor>
+		</EdgeDetect>
+		<Fisheye>
+			<strengthX>Strength X</strengthX>
+			<strengthY>Strength Y</strengthY>
+		</Fisheye>
+		<GlobalFog>
+			<fogMode>Mode</fogMode>
+			<globalDensity>Global Density</globalDensity>
+			<height>Height</height>
+			<heightScale>Height Scale</heightScale>
+			<startDistance>Start Distance</startDistance>
+			<globalFogColor>Color</globalFogColor>
+			<adjustHeightScale>Adjust Height Scale</adjustHeightScale>
+			<adjustStartDistance>Adjust Start Distance</adjustStartDistance>
+		</GlobalFog>
+		<MotionBlur>
+			<extraBlur>Extra Blur</extraBlur>
+			<blurAmount>Blur Amount</blurAmount>
+		</MotionBlur>
+		<NoiseAndGrain>
+			<dx11Grain>DX11 Grain</dx11Grain>
+			<monochrome>Monochrome</monochrome>
+			<filterMode>Mode</filterMode>
+			<intensityMultiplier>Intensity Multiplier</intensityMultiplier>
+			<generalIntensity>General Intensity</generalIntensity>
+			<blackIntensity>Black Intensity</blackIntensity>
+			<whiteIntensity>White Intensity</whiteIntensity>
+			<midGrey>Mid Grey</midGrey>
+			<softness>Softness</softness>
+			<monochromeTiling>Monochrome Tiling</monochromeTiling>
+			<tilingRed>Red Tiling</tilingRed>
+			<tilingGreen>Green Tiling</tilingGreen>
+			<tilingBlue>Blue Tiling</tilingBlue>
+		</NoiseAndGrain>
+		<Obscurance>
+			<intensity>Intensity</intensity>
+			<tint>Tint</tint>
+			<radius>Radius</radius>
+			<sampleCount>Sample Count</sampleCount>
+			<sampleCountValue>Sample Count Value</sampleCountValue>
+			<downsampling>Downsampling</downsampling>
+			<occlusionSource>Occlusion Source</occlusionSource>
+			<ambientOnly>Ambient Only</ambientOnly>
+		</Obscurance>
+		<SunShafts>
+			<resolution>Resolution</resolution>
+			<screenBlendMode>Blend</screenBlendMode>
+			<useDepthTexture>Use Depth Texture</useDepthTexture>
+			<sunColor>Color</sunColor>
+			<maxRadius>Max Radius</maxRadius>
+			<sunShaftBlurRadius>Blur Radius</sunShaftBlurRadius>
+			<radialBlurIterations>Radial Blur Iterations</radialBlurIterations>
+			<sunShaftIntensity>Intensity</sunShaftIntensity>
+			<useSkyBoxAlpha>Use Skybox Alpha</useSkyBoxAlpha>
+		</SunShafts>
+		<TiltShiftHdr>
+			<blurArea>Blur Area</blurArea>
+			<maxBlurSize>Max Blur Size</maxBlurSize>
+			<downsample>Downsample</downsample>
+			<mode>Mode</mode>
+			<quality>Quality</quality>
+		</TiltShiftHdr>
+		<Vignetting>
+			<intensity>Intensity</intensity>
+			<blur>Blur</blur>
+			<blurSpread>Blur Spread</blurSpread>/
+			<mode>Advanced</mode>
+			<chromaticAberration>Chromatic Aberration</chromaticAberration>
+			<luminanceDependency>Luminance Dependency</luminanceDependency>
+			<axialAberration>Axial Aberration</axialAberration>
+			<blurDistance>Blur Distance</blurDistance>
+		</Vignetting>
+		<Isoline>
+			<_lineColor>Line Color</_lineColor>
+			<_luminanceBlending>Luminance Blending</_luminanceBlending>
+			<_fallOffDepth>Fall-Off </_fallOffDepth>
+			<_backgroundColor>Background Color</_backgroundColor>
+			<_axisX>Axis X</_axisX>
+			<_axisY>Axis Y</_axisY>
+			<_axisZ>Axis Z</_axisZ>
+			<_interval>Interval</_interval>
+			<_offsetX>Offset X</_offsetX>
+			<_offsetY>Offset Y</_offsetY>
+			<_offsetZ>Offset Z</_offsetZ>
+			<_distortionFrequency>Distortion Frequency</_distortionFrequency>
+			<_distortionAmount>Distortion Amount</_distortionAmount>
+			<_modulationMode>Modulation Mode</_modulationMode>
+			<_modulationAxisX>Modulation Axis X</_modulationAxisX>
+			<_modulationAxisY>Modulation Axis Y</_modulationAxisY>
+			<_modulationAxisZ>Modulation Axis Z</_modulationAxisZ>
+			<_modulationFrequency>Modulation Frequency</_modulationFrequency>
+			<_modulationSpeed>Modulation Speed</_modulationSpeed>
+			<_modulationExponent>Modulation Exponent</_modulationExponent>
+			<_directionX>Scroll Direction X</_directionX>
+			<_directionY>Scroll Direction Y</_directionY>
+			<_directionZ>Scroll Direction Z</_directionZ>
+			<_speed>Scroll Speed</_speed>
+		</Isoline>
+		<TonemappingColorGrading>
+			<EyeAdaptation>EyeAdaptation</EyeAdaptation>
+			<MiddleGrey>MiddleGrey</MiddleGrey>
+			<Min>Min</Min>
+			<Max>Max</Max>
+			<Speed>Speed</Speed>
+			<ShowDebug>ShowDebug</ShowDebug>
+			<Tonemapping>Tonemapping</Tonemapping>
+			<tonemapper>tonemapper</tonemapper>
+			<Exposure>Exposure</Exposure>
+			<Curve>Curve</Curve>
+			<BlackIn>BlackIn</BlackIn>
+			<WhiteIn>WhiteIn</WhiteIn>
+			<BlackOut>BlackOut</BlackOut>
+			<WhiteOut>WhiteOut</WhiteOut>
+			<WhiteLevel>WhiteLevel</WhiteLevel>
+			<WhiteClip>WhiteClip</WhiteClip>
+			<ColorGrading>ColorGrading</ColorGrading>
+			<precision>precision</precision>
+			<Shadows>Shadows</Shadows>
+			<Midtones>Midtones</Midtones>
+			<Highlights>Highlights</Highlights>
+			<TemperatureShift>TemperatureShift</TemperatureShift>
+			<Tint>Tint</Tint>
+			<Hue>Hue</Hue>
+			<Saturation>Saturation</Saturation>
+			<Vibrance>Vibrance</Vibrance>
+			<Value>Value</Value>
+			<Contrast>Contrast</Contrast>
+			<Gain>Gain</Gain>
+			<Gamma>Gamma</Gamma>
+			<ChannelMixer>ChannelMixer</ChannelMixer>
+			<RedChannel-R>RedChannel-R</RedChannel-R>
+			<RedChannel-G>RedChannel-G</RedChannel-G>
+			<RedChannel-B>RedChannel-B</RedChannel-B>
+			<GreenChannel-R>GreenChannel-R</GreenChannel-R>
+			<GreenChannel-G>GreenChannel-G</GreenChannel-G>
+			<GreenChannel-B>GreenChannel-B</GreenChannel-B>
+			<BlueChannel-R>BlueChannel-R</BlueChannel-R>
+			<BlueChannel-G>BlueChannel-G</BlueChannel-G>
+			<BlueChannel-B>BlueChannel-B</BlueChannel-B>
+			<Curves>Curves</Curves>
+			<MasterCurve>MasterCurve</MasterCurve>
+			<RedCurve>RedCurve</RedCurve>
+			<GreenCurve>GreenCurve</GreenCurve>
+			<BlueCurve>BlueCurve</BlueCurve>
+			<UseDithering>UseDithering</UseDithering>
+			<LUTEnabled>LUT</LUTEnabled>
+			<Texture>Texture</Texture>
+			<Contribution>Contribution</Contribution>
+		</TonemappingColorGrading>
+		<CinematicBloom>
+			<threshold>threshold</threshold>
+			<softKnee>softKnee</softKnee>
+			<radius>radius</radius>
+			<intensity>intensity</intensity>
+			<highQuality>highQuality</highQuality>
+			<antiFlicker>antiFlicker</antiFlicker>
+			<dirtTexturePicker>dirtTexturePicker</dirtTexturePicker>
+			<dirtIntensity>dirtIntensity</dirtIntensity>
+		</CinematicBloom>
+		<CinematicDepthOfField>
+			<visualizeFocus>visualizeFocus</visualizeFocus>
+			<tweakMode>tweakMode</tweakMode>
+			<filteringQuality>filteringQuality</filteringQuality>
+			<apertureShape>apertureShape</apertureShape>
+			<apertureOrientation>apertureOrientation</apertureOrientation>
+			<focusFocusPlane>FocusPlane</focusFocusPlane>
+			<focusRange>Range</focusRange>
+			<focusNearPlane>NearPlane</focusNearPlane>
+			<focusNearFalloff>NearFalloff</focusNearFalloff>
+			<focusNearBlurRadius>NearBlurRadius</focusNearBlurRadius>
+			<focusFarPlane>FarPlane</focusFarPlane>
+			<focusFarFalloff>FarFalloff</focusFarFalloff>
+			<focusFarBlurRadius>FarBlurRadius</focusFarBlurRadius>
+			<bokehTexture>bokehTexture</bokehTexture>
+			<bokehScale>bokehScale</bokehScale>
+			<bokehIntensity>bokehIntensity</bokehIntensity>
+			<bokehThreshold>bokehThreshold</bokehThreshold>
+			<bokehSpawnHeuristic>bokehSpawnHeuristic</bokehSpawnHeuristic>
+		</CinematicDepthOfField>
+		<CinematicLensAberrations>
+			<distortionEnabled>Distortion</distortionEnabled>
+			<distortionAmount>Amount</distortionAmount>
+			<distortionCenterX>Center X</distortionCenterX>
+			<distortionCenterY>Center Y</distortionCenterY>
+			<distortionAmountX>Amount X</distortionAmountX>
+			<distortionAmountY>Amount Y</distortionAmountY>
+			<distortionScale>Scale</distortionScale>
+			<vignetteEnabled>Vignette</vignetteEnabled>
+			<vignetteColor>Color</vignetteColor>
+			<vignetteCenterX>Cente rX</vignetteCenterX>
+			<vignetteCenterY>Center Y</vignetteCenterY>
+			<vignetteIntensity>Intensity</vignetteIntensity>
+			<vignetteSmoothness>Smoothness</vignetteSmoothness>
+			<vignetteRoundness>Roundness</vignetteRoundness>
+			<vignetteBlur>Blur</vignetteBlur>
+			<vignetteDesaturate>Desaturate</vignetteDesaturate>
+			<chromaticAberrationEnabled>Chromatic Aberration</chromaticAberrationEnabled>
+			<chromaticAberrationColor>Color</chromaticAberrationColor>
+			<chromaticAberrationAmount>Amount</chromaticAberrationAmount>
+		</CinematicLensAberrations>
+		<FilmicLetterBox>
+			<Vertical>Vertical</Vertical>
+			<Color>Color</Color>
+			<CenterX>Center X</CenterX>
+			<CenterY>Center Y</CenterY>
+			<Position>Width</Position>
+			<Smoothness>Smoothness</Smoothness>
+		</FilmicLetterBox>
+		<StylisticFog>
+			<distanceFog>Distance Fog</distanceFog>
+			<FogEndDistance>End Distance</FogEndDistance>
+			<heightFog>Height Fog</heightFog>
+			<BaseHeight>Base Height</BaseHeight>
+			<BaseDensity>Base Density</BaseDensity>
+			<DensityFalloff>Density Falloff</DensityFalloff>
+			<ColorSelectionType>Color Selection Type</ColorSelectionType>
+			<GradientFirstColor>Gradient First Color</GradientFirstColor>
+			<GradientLastColor>Gradient Last Color</GradientLastColor>
+			<FogSkybox>Fog Skybox</FogSkybox>
+		</StylisticFog>
+		
+		<Panes>
+			<AnalogGlitch>AnalogGlitch</AnalogGlitch>
+			<Antialiasing>Antialiasing</Antialiasing>
+			<Bloom>Bloom</Bloom>
+			<Blur>Blur</Blur>
+			<Bokeh>Bokeh</Bokeh>
+			<ColorCorrectionCurves>Color Curves</ColorCorrectionCurves>
+			<ColorCorrectionLut>Color Correction LUT</ColorCorrectionLut>
+			<Contrast>Contrast</Contrast>
+			<Crease>Crease</Crease>
+			<DepthOfField>Depth Of Field</DepthOfField>
+			<DigitalGlitch>Digital Glitch</DigitalGlitch>
+			<EdgeDetect>Edge Detect</EdgeDetect>
+			<Fisheye>Fisheye</Fisheye>
+			<GlobalFog>Global Fog</GlobalFog>
+			<Grayscale>Grayscale</Grayscale>
+			<MotionBlur>Motion Blur</MotionBlur>
+			<NoiseAndGrain>Noise And Grain</NoiseAndGrain>
+			<Obscurance>Obscurance</Obscurance>
+			<Sepia>Sepia</Sepia>
+			<SunShafts>Sun Shafts</SunShafts>
+			<TiltShiftHdr>Tilt Shift HDR</TiltShiftHdr>
+			<Vignetting>Vignetting</Vignetting>
+			<Isoline>Isoline</Isoline>
+			<CinematicBloom>Bloom (Cinematic)</CinematicBloom>
+			<CinematicDepthOfField>DepthOfField (Cinematic)</CinematicDepthOfField>
+			<CinematicLensAberrations>Lens Aberrations</CinematicLensAberrations>
+			<TonemappingColorGrading>Tonemapping/ColorGrading</TonemappingColorGrading>
+			<FilmicLetterBox>Letter Box</FilmicLetterBox>
+			<StylisticFog>StylisticFog</StylisticFog>
+			<HDR>HDR</HDR>
+			<Beautify>Beautify</Beautify>
+		</Panes>
+
+		<Model>
+			<gizmoPan>Pan</gizmoPan>
+			<gizmoPanX>Pan X</gizmoPanX>
+			<gizmoPanY>Pan Y</gizmoPanY>
+			<gizmoPanZ>Pan Z</gizmoPanZ>
+			<gizmoRotate>Rotation</gizmoRotate>
+			<gizmoRotationX>Rotation X</gizmoRotationX>
+			<gizmoRotationY>Rotation Y</gizmoRotationY>
+			<gizmoRotationZ>Rotation Z</gizmoRotationZ>
+			<gizmoScale>Scale</gizmoScale>
+			<gizmoScaleX>Scale X</gizmoScaleX>
+			<gizmoScaleY>Scale Y</gizmoScaleY>
+			<gizmoScaleZ>Scale Z</gizmoScaleZ>
+			<gizmoScaleAllAxes>Scale All Axes</gizmoScaleAllAxes>
+			<CastShadow>Shadow</CastShadow>
+			<CastShadowON>Cast Shadow ON</CastShadowON>
+			<CastShadowOFF>Cast Shadow OFF</CastShadowOFF>
+			<modelDelete>Delete</modelDelete>
+			<modelCopy>Copy</modelCopy>
+		</Model>
+
+		<Light>
+			<lightType>Type</lightType>
+			<lightEnable>Enable</lightEnable>
+			<lightRotationX>Rotation X</lightRotationX>
+			<lightRotationY>Rotation Y</lightRotationY>
+			<lightRotationZ>Rotation Z</lightRotationZ>
+			<lightResetPos>Reset Pos</lightResetPos>
+			<lightIntensity>Intensity</lightIntensity>
+			<m_baseCullingMask>CullingMask</m_baseCullingMask>
+			<lightBounceIntensity>Bounce Intensity</lightBounceIntensity>
+			<lightRange>Range</lightRange>
+			<spotLightAngle>Spotlight Angle</spotLightAngle>
+			<areaLightWidth>Area Width</areaLightWidth>
+			<areaLightHeight>Area Width</areaLightHeight>
+			<lightColor>Color</lightColor>
+			<shadows>Shadow Type</shadows>
+			<shadowStrength>Shadow Strength</shadowStrength>
+			<shadowResolution>Shadow Resolution</shadowResolution>
+			<shadowBias>Shadow Bias</shadowBias>
+			<shadowNormalBias>Shadow Normal Bias</shadowNormalBias>
+			<shadowNearPlane>shadowNearPlane</shadowNearPlane>
+		</Light>
+
+		<LightShafts>
+			<Enable>Show Panel</Enable>
+			<lightEnable>Light Enable</lightEnable>
+			<lightShahtsEnable>LightShahts Enable</lightShahtsEnable>
+			<m_SizeX>SizeX</m_SizeX>
+			<m_SizeY>SizeY</m_SizeY>
+			<m_SizeZ>SizeY</m_SizeZ>
+			<m_SpotNear>Spot Near</m_SpotNear>
+			<m_SpotFar>Spot Far</m_SpotFar>
+			<m_LightShaftsCullingMask>CullingMask</m_LightShaftsCullingMask>
+			<m_Colored>Colored</m_Colored>
+			<m_Brightness>Brightness</m_Brightness>
+			<m_BrightnessColored>Brightness Colored</m_BrightnessColored>
+			<m_ColorBalance>Color Balance</m_ColorBalance>
+			<m_DepthThreshold>Depth Threshold</m_DepthThreshold>
+		</LightShafts>
+
+		<Camera>
+			<cameraPositionX>X</cameraPositionX>
+			<cameraPositionY>Y</cameraPositionY>
+			<cameraPositionZ>Z</cameraPositionZ>
+			<cameraRotationX>Camera Rotation X</cameraRotationX>
+			<cameraRotationY>Camera Rotation Y</cameraRotationY>
+			<cameraRotationZ>Camera Rotation Z</cameraRotationZ>
+			<cameraFov>Camera FOV</cameraFov>
+			<cameraDistance>Camera Distance</cameraDistance>
+			<cameraAllSettings>All Settings</cameraAllSettings>
+			<cameraSavePosition>Save Camera</cameraSavePosition>
+			<cameraRestorePosition>Restore Camera</cameraRestorePosition>
+			<cameraResetPosition>Reset Camera</cameraResetPosition>
+		</Camera>
+
+		<Equip>
+			<face>Face</face>
+			<teeth>Teeth</teeth>
+			<frontHair>Front Hair</frontHair>
+			<backHair>Back Hair</backHair>
+			<sideHair>Side Hair</sideHair>
+			<extensions>Extensions</extensions>
+			<ahoge>Ahoge</ahoge>
+			<hat>Hat</hat>
+			<headdress>Headdress</headdress>
+			<top>Top</top>
+			<bottom>Bottom</bottom>
+			<onePiece>One Piece</onePiece>
+			<swimsuit>Swimsuit</swimsuit>
+			<bra>Bra</bra>
+			<panties>Panties</panties>
+			<socks>Socks</socks>
+			<shoes>Shoes</shoes>
+			<hairAccessory>Hair Acc.</hairAccessory>
+			<glasses>Glasses</glasses>
+			<eyeMask>Eye Mask</eyeMask>
+			<nose>Nose</nose>
+			<ears>Ears</ears>
+			<gloves>Gloves</gloves>
+			<necklace>Necklace</necklace>
+			<choker>Choker</choker>
+			<ribbon>Ribbon</ribbon>
+			<nipples>Nipples</nipples>
+			<arms>Arms</arms>
+			<belly>Belly</belly>
+			<ankles>Ankles</ankles>
+			<back>Back</back>
+			<tail>Tail</tail>
+			<genitals>Genitals</genitals>
+			<pubicHair>Pubic Hair</pubicHair>
+			<itemHand>Hand</itemHand>
+			<itemUpper>Body U</itemUpper>
+			<itemLower>Body L</itemLower>
+			<itemVaginal>Vaginal</itemVaginal>
+			<itemAnal>Anal</itemAnal>
+			<backgroundObject>Maid Item</backgroundObject>
+			<background>Background</background>
+			<myRoomObject>MyRoom Object</myRoomObject>
+		</Equip>
+
+		<UI>
+			<transformFromMaid>Focal Transform</transformFromMaid>
+			<reloadMaids>Reload</reloadMaids>
+			<dragSource>Drag</dragSource>
+			<effectSetting>Effects</effectSetting>
+			<envSetting>Environment</envSetting>
+			<modelSetting>Model</modelSetting>
+			<dataSetting>Save / Load</dataSetting>
+			<save>Save</save>
+			<load>Load</load>
+			<delete>Delete</delete>
+			<reset>Reset</reset>
+			<name>Name</name>
+			<background>Background</background>
+			<addModel>Add Model</addModel>
+			<addLight>Add Light</addLight>
+			<addLightShafts>Add LightShaft</addLightShafts>
+			<model>Model</model>
+			<light>Light</light>
+			<lightShafts>Light Shafts</lightShafts>
+			<mainLight>Main Light</mainLight>
+			<loadTarget>Load Targets</loadTarget>
+			<loadEffects>Effects</loadEffects>>
+			<loadLights>Lights</loadLights>
+			<loadModels>Models</loadModels>
+			<loadCamera>Camera</loadCamera>
+			<loadMisc>Misc</loadMisc>
+			<language>Language</language>
+			<ForceUpdate>Update</ForceUpdate>
+			<FixTargetPosition>Adjust TargetPosition</FixTargetPosition>
+			<FixTargetPositionX>X Axis</FixTargetPositionX>
+			<FixTargetPositionY>Y Axis</FixTargetPositionY>
+			<FixTargetPositionZ>Z Axis</FixTargetPositionZ>
+			<LookAtMaid>Maid Select</LookAtMaid>
+			<LookAtMaidDanceMode>Dance Mode</LookAtMaidDanceMode>
+		</UI>
+
+		<Beautify>
+			<enableCompare>Compare</enableCompare>
+			<compareMode>Compare Mode</compareMode>
+			<compareLineAngle>Compare Line Angle</compareLineAngle>
+			<compareLineWidth>Compare Line Width</compareLineWidth>
+			<enableSharpen>Sharpen</enableSharpen>
+			<sharpenIntensity>Sharpen Intensity</sharpenIntensity>
+			<sharpenDepthThreshold>Sharpen Depth Threshold</sharpenDepthThreshold>
+			<sharpenMinDepth>Sharpen Minimum Depth</sharpenMinDepth>
+			<sharpenMaxDepth>Sharpen Maximum Depth</sharpenMaxDepth>
+			<sharpenRelaxation>Sharpen Relaxation</sharpenRelaxation>
+			<sharpenClamp>Sharpen Clamp</sharpenClamp>
+			<sharpenMotionSensibility>Sharpen Motion Sensibility</sharpenMotionSensibility>
+			<enableColorTweaks>Color Tweaks</enableColorTweaks>
+			<daltonize>Daltonize</daltonize>
+			<sepia>Sepia</sepia>
+			<saturate>Saturation</saturate>
+			<brightness>Brightness</brightness>
+			<contrast>Contrast</contrast>
+			<tintColor>Tint Color</tintColor>
+			<tonemap>Tone Map</tonemap>
+			<tonemapExposurePre>Tone Mapping Exposure Pre</tonemapExposurePre>
+			<tonemapBrightnessPost>Tone Mapping Brightness Post</tonemapBrightnessPost>
+			<enableLut>LUT</enableLut>
+			<lut>Lut</lut>
+			<lutIntensity>LUT Intensity</lutIntensity>
+			<lutTexture>LUT Texture</lutTexture>
+			<lutTextureFilename>LUT Texture Filename</lutTextureFilename>
+			<enableBloomFlares>Bloom And Flares</enableBloomFlares>
+			<bloomIntensity>Bloom Intensity</bloomIntensity>
+			<bloomThreshold>Bloom Threshold</bloomThreshold>
+			<bloomMaxBrightness>Bloom Max Brightness</bloomMaxBrightness>
+			<bloomDepthAtten>Bloom Depth Attenuation</bloomDepthAtten>
+			<bloomAntiflicker>Bloom Anti-flicker</bloomAntiflicker>
+			<bloomUltra>Ultra Bloom</bloomUltra>
+			<bloomDebug>Bloom Debug</bloomDebug>
+			<bloomCustomize>Bloom Customize</bloomCustomize>
+			<bloomWeight0>Bloom Weight 0</bloomWeight0>
+			<bloomWeight1>Bloom Weight 1</bloomWeight1>
+			<bloomWeight2>Bloom Weight 2</bloomWeight2>
+			<bloomWeight3>Bloom Weight 3</bloomWeight3>
+			<bloomWeight4>Bloom Weight 4</bloomWeight4>
+			<bloomWeight5>Bloom Weight 5</bloomWeight5>
+			<bloomBoost0>Bloom Boost 0</bloomBoost0>
+			<bloomBoost1>Bloom Boost 1</bloomBoost1>
+			<bloomBoost2>Bloom Boost 2</bloomBoost2>
+			<bloomBoost3>Bloom Boost 3</bloomBoost3>
+			<bloomBoost4>Bloom Boost 4</bloomBoost4>
+			<bloomBoost5>Bloom Boost 5</bloomBoost5>
+			<anamorphicFlaresIntensity>Anamorphic Flares Intensity</anamorphicFlaresIntensity>
+			<anamorphicFlaresThreshold>Anamorphic Flares Threshold</anamorphicFlaresThreshold>
+			<anamorphicFlaresVertical>Anamorphic Flares Vertical</anamorphicFlaresVertical>
+			<anamorphicFlaresSpread>Anamorphic Flares Spread</anamorphicFlaresSpread>
+			<anamorphicFlaresDepthAtten>Anamorphic Flares Depth Attenuation</anamorphicFlaresDepthAtten>
+			<anamorphicFlaresAntiflicker>Anamorphic Flares Anti-flicker</anamorphicFlaresAntiflicker>
+			<anamorphicFlaresUltra>Ultra Anamorphic Flares</anamorphicFlaresUltra>
+			<anamorphicFlaresTint>Anamorphic Flares Tint</anamorphicFlaresTint>
+			<sunFlaresIntensity>Sun Flares Intensity</sunFlaresIntensity>
+			<sunFlaresTint>Sun Flares Tint</sunFlaresTint>
+			<sunFlaresSolarWindSpeed>Sun Flares Solar Wind Speed</sunFlaresSolarWindSpeed>
+			<sunFlaresRotationDeadZone>Sun Flares Rotation Dead Zone</sunFlaresRotationDeadZone>
+			<sunFlaresDownsampling>Sun Flares Downsampling</sunFlaresDownsampling>
+			<sunFlaresLayerMask>Sun Flares Layer Mask</sunFlaresLayerMask>
+			<sunFlaresSunIntensity>Sun Flares Sun Intensity</sunFlaresSunIntensity>
+			<sunFlaresSunDiskSize>Sun Flares Sun Disk Size</sunFlaresSunDiskSize>
+			<sunFlaresSunRayDiffractionIntensity>Sun Flares Sun Ray Diffraction Intensity</sunFlaresSunRayDiffractionIntensity>
+			<sunFlaresSunRayDiffractionThreshold>Sun Flares Sun Ray Diffraction Threshold</sunFlaresSunRayDiffractionThreshold>
+			<sunFlaresCoronaRays1Length>Sun Flares Corona Rays 1 Length</sunFlaresCoronaRays1Length>
+			<sunFlaresCoronaRays1Streaks>Sun Flares Corona Rays 1 Streaks</sunFlaresCoronaRays1Streaks>
+			<sunFlaresCoronaRays1Spread>Sun Flares Corona Rays 1 Spread</sunFlaresCoronaRays1Spread>
+			<sunFlaresCoronaRays1AngleOffset>Sun Flares Corona Rays 1 Angle Offset</sunFlaresCoronaRays1AngleOffset>
+			<sunFlaresCoronaRays2Length>Sun Flares Corona Rays 2 Length</sunFlaresCoronaRays2Length>
+			<sunFlaresCoronaRays2Streaks>Sun Flares Corona Rays 2 Streaks</sunFlaresCoronaRays2Streaks>
+			<sunFlaresCoronaRays2Spread>Sun Flares Corona Rays 2 Spread</sunFlaresCoronaRays2Spread>
+			<sunFlaresCoronaRays2AngleOffset>Sun Flares Corona Rays 2 Angle Offset</sunFlaresCoronaRays2AngleOffset>
+			<sunFlaresGhosts1Size>Sun Flares Ghosts 1 Size</sunFlaresGhosts1Size>
+			<sunFlaresGhosts1Offset>Sun Flares Ghosts 1 Offset</sunFlaresGhosts1Offset>
+			<sunFlaresGhosts1Brightness>Sun Flares Ghosts 1 Brightness</sunFlaresGhosts1Brightness>
+			<sunFlaresGhosts2Size>Sun Flares Ghosts 2 Size</sunFlaresGhosts2Size>
+			<sunFlaresGhosts2Offset>Sun Flares Ghosts 2 Offset</sunFlaresGhosts2Offset>
+			<sunFlaresGhosts2Brightness>Sun Flares Ghosts 2 Brightness</sunFlaresGhosts2Brightness>
+			<sunFlaresGhosts3Size>Sun Flares Ghosts 3 Size</sunFlaresGhosts3Size>
+			<sunFlaresGhosts3Brightness>Sun Flares Ghosts 3 Brightness</sunFlaresGhosts3Brightness>
+			<sunFlaresGhosts3Offset>Sun Flares Ghosts 3 Offset</sunFlaresGhosts3Offset>
+			<sunFlaresGhosts4Size>Sun Flares Ghosts 4 Size</sunFlaresGhosts4Size>
+			<sunFlaresGhosts4Offset>Sun Flares Ghosts 4 Offset</sunFlaresGhosts4Offset>
+			<sunFlaresGhosts4Brightness>Sun Flares Ghosts 4 Brightness</sunFlaresGhosts4Brightness>
+			<sunFlaresHaloOffset>Sun Flares Halo Offset</sunFlaresHaloOffset>
+			<sunFlaresHaloAmplitude>Sun Flares Halo Amplitude</sunFlaresHaloAmplitude>
+			<sunFlaresHaloIntensity>Sun Flares Halo Intensity</sunFlaresHaloIntensity>
+			<enableLensDirt>Lens Dirt</enableLensDirt>
+			<lensDirtIntensity>Lens Dirt Intensity</lensDirtIntensity>
+			<lensDirtThreshold>Lens Dirt Threshold</lensDirtThreshold>
+			<lensDirtTexture>Lens Dirt Texture</lensDirtTexture>
+			<lensDirtTextureFilename>Lens Dirt Texture Filename</lensDirtTextureFilename>
+			<lensDirtSpread>Lens Dirt Spread</lensDirtSpread>
+			<enableEyeAdaptation>Eye Adaptation</enableEyeAdaptation>
+			<eyeAdaptation>Eye Adaptation</eyeAdaptation>
+			<eyeAdaptationMinExposure>Eye Adaptation Min Exposure</eyeAdaptationMinExposure>
+			<eyeAdaptationMaxExposure>Eye Adaptation Max Exposure</eyeAdaptationMaxExposure>
+			<eyeAdaptationSpeedToLight>Eye Adaptation Speed to Light</eyeAdaptationSpeedToLight>
+			<eyeAdaptationSpeedToDark>Eye Adaptation Speed to Dark</eyeAdaptationSpeedToDark>
+			<enablePurkinje>Purkinje</enablePurkinje>
+			<purkinje>Purkinje</purkinje>
+			<purkinjeAmount>Purkinje Amount</purkinjeAmount>
+			<purkinjeLuminanceThreshold>Purkinje Luminance Threshold</purkinjeLuminanceThreshold>
+			<enableVignetting>Vignetting</enableVignetting>
+			<vignettingOuterRing>Vignetting Outer Ring</vignettingOuterRing>
+			<vignettingInnerRing>Vignetting Inner Ring</vignettingInnerRing>
+			<vignettingFade>Vignetting Fade</vignettingFade>
+			<vignettingCircularShape>Vignetting Circular Shape</vignettingCircularShape>
+			<vignettingAspectRatio>Vignetting Aspect Ratio</vignettingAspectRatio>
+			<vignettingBlink>Vignetting Blink</vignettingBlink>
+			<vignettingColor>Vignetting Color</vignettingColor>
+			<vignettingMask>Vignetting Mask</vignettingMask>
+			<vignettingMaskFilename>Vignetting Mask Filename</vignettingMaskFilename>
+			<enableDepthOfField>Depth of Field</enableDepthOfField>
+			<depthOfField>Depth of Field</depthOfField>
+			<depthOfFieldDebug>Depth of Field Debug</depthOfFieldDebug>
+			<depthOfFieldFocusMode>Depth of Field Focus Mode</depthOfFieldFocusMode>
+			<depthOfFieldAutofocusMinDistance>Depth of Field Autofocus Min Distance</depthOfFieldAutofocusMinDistance>
+			<depthOfFieldAutofocusMaxDistance>Depth of Field Autofocus Max Distance</depthOfFieldAutofocusMaxDistance>
+			<depthofFieldAutofocusViewportPoint_X>Depth of Field Autofocus Viewport Point X</depthofFieldAutofocusViewportPoint_X>
+			<depthofFieldAutofocusViewportPoint_Y>Depth of Field Autofocus Viewport Point Y</depthofFieldAutofocusViewportPoint_Y>
+			<depthOfFieldAutofocusLayerMask>Depth of Field Autofocus Layer Mask</depthOfFieldAutofocusLayerMask>
+			<depthOfFieldExclusionLayerMask>Depth of Field Exclusion Layer Mask</depthOfFieldExclusionLayerMask>
+			<depthOfFieldExclusionLayerMaskDownsampling>Depth of Field Exclusion Layer Mask Downsampling</depthOfFieldExclusionLayerMaskDownsampling>
+			<depthOfFieldTransparencySupport>Depth of Field Transparency Support</depthOfFieldTransparencySupport>
+			<depthOfFieldTransparencyLayerMask>Depth of Field Transparency Layer Mask</depthOfFieldTransparencyLayerMask>
+			<depthOfFieldTransparencySupportDownsampling>Depth of Field Transparency Support Downsampling</depthOfFieldTransparencySupportDownsampling>
+			<depthOfFieldExclusionBias>Depth of Field Exclusion Bias</depthOfFieldExclusionBias>
+			<depthOfFieldDistance>Depth of Field Distance</depthOfFieldDistance>
+			<depthOfFieldFocusSpeed>Depth of Field Focus Speed</depthOfFieldFocusSpeed>
+			<depthOfFieldDownsampling>Depth of Field Downsampling</depthOfFieldDownsampling>
+			<depthOfFieldMaxSamples>Depth of Field Max Samples</depthOfFieldMaxSamples>
+			<depthOfFieldFocalLength>Depth of Field Focal Length</depthOfFieldFocalLength>
+			<depthOfFieldAperture>Depth of Field Aperture</depthOfFieldAperture>
+			<depthOfFieldForegroundBlur>Depth of Field Foreground Blur</depthOfFieldForegroundBlur>
+			<depthOfFieldForegroundBlurHQ>Depth of Field Foreground Blur HQ</depthOfFieldForegroundBlurHQ>
+			<depthOfFieldForegroundDistance>Depth of Field Foreground Distance</depthOfFieldForegroundDistance>
+			<depthOfFieldBokeh>Depth of Field Bokeh</depthOfFieldBokeh>
+			<depthOfFieldBokehThreshold>Depth of Field Bokeh Threshold</depthOfFieldBokehThreshold>
+			<depthOfFieldBokehIntensity>Depth of Field Bokeh Intensity</depthOfFieldBokehIntensity>
+			<depthOfFieldMaxBrightness>Depth of Field Max Brightness</depthOfFieldMaxBrightness>
+			<depthOfFieldMaxDistance>Depth of Field Max Distance</depthOfFieldMaxDistance>
+			<depthOfFieldFilterMode>Depth of Field Filter Mode</depthOfFieldFilterMode>
+			<enableOutline>Outline</enableOutline>
+			<outline>Outline</outline>
+			<outlineColor>Outline Color</outlineColor>
+		</Beautify>
+	</Translation>
+	<Translation language="日本語">
+		<AnalogGlitch>
+			<scanLineJitter>スキャンライン揺れ</scanLineJitter>
+			<verticalJump>垂直ちらつき</verticalJump>
+			<horizontalShake>横揺れ</horizontalShake>
+			<colorDrift>色ずれ</colorDrift>
+		</AnalogGlitch>
+		<Antialiasing>
+			<mode>アンチエイリアス技法</mode>
+			<dlaaSharp>シャープ</dlaaSharp>
+			<showGeneratedNormals>法線表示</showGeneratedNormals>
+			<blurRadius>ブラー半径</blurRadius>
+			<edgeSharpness>エッジシャープネス</edgeSharpness>
+			<edgeThreshold>エッジ敷居</edgeThreshold>
+			<edgeThresholdMin>エッジ敷居最小限</edgeThresholdMin>
+			<offsetScale>オフセットスケール</offsetScale>
+		</Antialiasing>
+		<Bloom>
+			<hdr>ＨＤＲ</hdr>
+			<screenBlendMode>ブレンド</screenBlendMode>
+			<tweakMode>モード</tweakMode>
+			<quality>複合</quality>
+			<bloomIntensity>強度</bloomIntensity>
+			<bloomThreshhold>敷居</bloomThreshhold>
+			<bloomBlurIterations>ブラー反復回数</bloomBlurIterations>
+			<sepBlurSpread>ブラー拡散</sepBlurSpread>
+			<bloomThreshholdColor>敷居色</bloomThreshholdColor>
+			<lensflareMode>レンズフレアモード</lensflareMode>
+			<lensflareIntensity>レンズフレア強度</lensflareIntensity>
+			<lensFlareSaturation>レンズフレア彩度</lensFlareSaturation>
+			<lensflareThreshold>レンズフレア敷居</lensflareThreshold>
+			<flareRotation>レンズフレア回転</flareRotation>
+			<blurWidth>ブラー幅</blurWidth>
+			<hollyStretchWidth>ハリウッドブラー張り幅</hollyStretchWidth>
+			<hollywoodFlareBlurIterations>ハリウッドブラー反復回数</hollywoodFlareBlurIterations>
+			<flareColorA>フレアー色Ａ</flareColorA>
+			<flareColorB>フレアー色Ｂ</flareColorB>
+			<flareColorC>フレアー色Ｃ</flareColorC>
+			<flareColorD>フレアー色Ｄ</flareColorD>
+		</Bloom>
+		<Blur>
+			<blurIterations>反復回数</blurIterations>
+			<blurSize>サイズ</blurSize>
+			<downsample>ダウンサンプリング</downsample>
+		</Blur>
+		<Bokeh>
+			<focusDistance>フォーカス距離</focusDistance>
+			<fNumber>Ｆ値</fNumber>
+			<kernelSize>カーネルサイズ</kernelSize>
+			<useCameraFov>カメラ視野使用</useCameraFov>
+			<focalLength>焦点距離</focalLength>
+			<visualize>ビジュアライズ</visualize>
+		</Bokeh>
+		<ColorCorrectionCurves>
+			<mode>詳細設定</mode>
+			<saturation>彩度</saturation>
+			<redChannel>赤色チャネル</redChannel>
+			<greenChannel>緑色チャネル</greenChannel>
+			<blueChannel>青色チャネル</blueChannel>
+			<depthRedChannel>赤色チャンネル深度</depthRedChannel>
+			<depthGreenChannel>緑色チャンネル深度</depthGreenChannel>
+			<depthBlueChannel>青色チャンネル深度</depthBlueChannel>
+			<zCurve>Ｚカーブ</zCurve>
+			<selectiveCc>特定色補正</selectiveCc>
+		</ColorCorrectionCurves>
+		<ColorCorrectionLut>
+			<LUT>Texture</LUT>
+			<ApplyLut>適用</ApplyLut>
+		</ColorCorrectionLut>
+		<Contrast>
+			<intensity>強度</intensity>
+			<threshold>敷居</threshold>
+			<blurSpread>ブラー拡散</blurSpread>
+		</Contrast>
+		<Crease>
+			<intensity>強度</intensity>
+			<softness>柔らかさ</softness>
+			<spread>拡散</spread>
+		</Crease>
+		<DepthOfField>
+			<visualizeFocus>フォーカスビジュアライズ</visualizeFocus>
+			<focalLength>焦点距離</focalLength>
+			<focalSize>焦点サイズ</focalSize>
+			<aperture>アパーチャー</aperture>
+			<blurType>DX11ブラー</blurType>
+			<blurSampleCount>ブラーサンプル数</blurSampleCount>
+			<maxBlurSize>ブラーサイズ最大限</maxBlurSize>
+			<highResolution>高解像度</highResolution>
+			<nearBlur>近ブラー</nearBlur>
+			<foregroundOverlap>フォアグラウンド重複</foregroundOverlap>
+			<dx11BokehScale>ボケスケール</dx11BokehScale>
+			<dx11BokehIntensity>ボケ強度</dx11BokehIntensity>
+			<dx11BokehThreshhold>ボケ敷居</dx11BokehThreshhold>
+			<dx11SpawnHeuristic>Spawn Heuristic</dx11SpawnHeuristic>
+		</DepthOfField>
+		<DigitalGlitch>
+			<intensity>強度</intensity>
+		</DigitalGlitch>
+		<EdgeDetect>
+			<edgeDetectMode>モード</edgeDetectMode>
+			<sensitivityNormals>感性法線</sensitivityNormals>
+			<edgeExp>エッジ指数</edgeExp>
+			<sensitivityDepth>感性深度</sensitivityDepth>
+			<lumThreshold>輝度閾値</lumThreshold>
+			<sampleDist>サンプル距離</sampleDist>
+			<edgesOnly>エッジのみ</edgesOnly>
+			<edgesOnlyBgColor>エッジのみ背景色</edgesOnlyBgColor>
+		</EdgeDetect>
+		<Fisheye>
+			<strengthX>強度Ｘ</strengthX>
+			<strengthY>強度Ｙ</strengthY>
+		</Fisheye>
+		<GlobalFog>
+			<fogMode>モード</fogMode>
+			<globalDensity>グローバル濃度</globalDensity>
+			<height>高度</height>
+			<heightScale>高度スケール</heightScale>
+			<startDistance>開始距離</startDistance>
+			<globalFogColor>色</globalFogColor>
+			<adjustHeightScale>高度スケール調整</adjustHeightScale>
+			<adjustStartDistance>開始距離調整</adjustStartDistance>
+		</GlobalFog>
+		<MotionBlur>
+			<extraBlur>追加ブラー</extraBlur>
+			<blurAmount>ブラー量</blurAmount>
+		</MotionBlur>
+		<NoiseAndGrain>
+			<dx11Grain>DX11グレイン</dx11Grain>
+			<monochrome>白黒</monochrome>
+			<filterMode>モード</filterMode>
+			<intensityMultiplier>強度乗数</intensityMultiplier>
+			<generalIntensity>一般強度</generalIntensity>
+			<blackIntensity>黒強度</blackIntensity>
+			<whiteIntensity>白強度</whiteIntensity>
+			<midGrey>ミッドグレー</midGrey>
+			<softness>柔らかさ</softness>
+			<monochromeTiling>白黒タイリング</monochromeTiling>
+			<tilingRed>赤色タイルイング</tilingRed>
+			<tilingGreen>緑色タイリング</tilingGreen>
+			<tilingBlue>青色タイリング</tilingBlue>
+		</NoiseAndGrain>
+		<Obscurance>
+			<intensity>強度</intensity>
+			<tint>色</tint>
+			<radius>半径</radius>
+			<sampleCount>サムプル数</sampleCount>
+			<sampleCountValue>サンプル数値</sampleCountValue>
+			<downsampling>ダウンサンプリング</downsampling>
+			<occlusionSource>オクル―ジョンソース</occlusionSource>
+			<ambientOnly>アンビエントのみ</ambientOnly>
+		</Obscurance>
+		<SunShafts>
+			<resolution>解像度</resolution>
+			<screenBlendMode>ブレンド</screenBlendMode>
+			<useDepthTexture>デプステクスチャ使用</useDepthTexture>
+			<sunColor>色</sunColor>
+			<maxRadius>半径最大限</maxRadius>
+			<sunShaftBlurRadius>ブラー半径</sunShaftBlurRadius>
+			<radialBlurIterations>ラジアルブラー反復回数</radialBlurIterations>
+			<sunShaftIntensity>光量</sunShaftIntensity>
+			<useSkyBoxAlpha>スカイボックスアルファ使用</useSkyBoxAlpha>
+		</SunShafts>
+		<TiltShiftHdr>
+			<blurArea>ブラー範囲</blurArea>
+			<maxBlurSize>ブラーサイズ最大限</maxBlurSize>
+			<downsample>ダウンサンプリング</downsample>
+			<mode>モード</mode>
+			<quality>品質</quality>
+		</TiltShiftHdr>
+		<Vignetting>
+			<intensity>強度</intensity>
+			<blur>ブラー</blur>
+			<blurSpread>ブラー拡散</blurSpread>
+			<mode>詳細設定</mode>
+			<chromaticAberration>色収差</chromaticAberration>
+			<luminanceDependency>輝度依存性</luminanceDependency>
+			<axialAberration>軸上収差</axialAberration>
+			<blurDistance>ブラー距離</blurDistance>
+		</Vignetting>
+		<Isoline>
+			<_lineColor>線の色</_lineColor>
+			<_luminanceBlending>輝度混合</_luminanceBlending>
+			<_fallOffDepth>取り外し深度</_fallOffDepth>
+			<_backgroundColor>背景色</_backgroundColor>
+			<_axisX>軸Ｘ</_axisX>
+			<_axisY>軸Ｙ</_axisY>
+			<_axisZ>軸Ｚ</_axisZ>
+			<_interval>期間</_interval>
+			<_offsetX>オフセットＸ</_offsetX>
+			<_offsetY>オフセットＹ</_offsetY>
+			<_offsetZ>オフセットＺ</_offsetZ>
+			<_distortionFrequency>歪み度数</_distortionFrequency>
+			<_distortionAmount>歪み量</_distortionAmount>
+			<_modulationMode>転調モード</_modulationMode>
+			<_modulationAxisX>転調軸Ｘ</_modulationAxisX>
+			<_modulationAxisY>転調軸Ｙ</_modulationAxisY>
+			<_modulationAxisZ>転調軸Ｚ</_modulationAxisZ>
+			<_modulationFrequency>転調周波数</_modulationFrequency>
+			<_modulationSpeed>転調速度</_modulationSpeed>
+			<_modulationExponent>転調指数</_modulationExponent>
+			<_directionX>スクロール方向Ｘ</_directionX>
+			<_directionY>スクロール方向Ｙ</_directionY>
+			<_directionZ>スクロール方向Ｚ</_directionZ>
+			<_speed>スクロールスピード</_speed>
+		</Isoline>
+		<CinematicBloom>
+			<threshold>敷居</threshold>
+			<softKnee>ソフトニー</softKnee>
+			<radius>半径</radius>
+			<intensity>強度</intensity>
+			<highQuality>高解像度</highQuality>
+			<antiFlicker>アンチフリッカー</antiFlicker>
+			<dirtTexturePicker>dirtTexturePicker</dirtTexturePicker>
+			<dirtIntensity>dirtIntensity</dirtIntensity>
+		</CinematicBloom>
+		<CinematicDepthOfField>
+			<visualizeFocus>フォーカスビジュアライズ</visualizeFocus>
+			<tweakMode>tweakMode</tweakMode>
+			<filteringQuality>filteringQuality</filteringQuality>
+			<apertureShape>絞り形状</apertureShape>
+			<apertureOrientation>絞り向き</apertureOrientation>
+			<focusFocusPlane>FocusPlane</focusFocusPlane>
+			<focusRange>Range</focusRange>
+			<focusNearPlane>近接面</focusNearPlane>
+			<focusNearFalloff>近接フォールオフ</focusNearFalloff>
+			<focusNearBlurRadius>近接ブラー半径</focusNearBlurRadius>
+			<focusFarPlane>遠方面</focusFarPlane>
+			<focusFarFalloff>遠方フォールオフ</focusFarFalloff>
+			<focusFarBlurRadius>遠方ブラー半径</focusFarBlurRadius>
+			<bokehTexture>テクスチャ</bokehTexture>
+			<bokehScale>ボケスケール</bokehScale>
+			<bokehIntensity>ボケ強度</bokehIntensity>
+			<bokehThreshold>ボケ敷居</bokehThreshold>
+			<bokehSpawnHeuristic>bokehSpawnHeuristic</bokehSpawnHeuristic>
+		</CinematicDepthOfField>
+		<CinematicLensAberrations>
+			<distortionEnabled>歪曲</distortionEnabled>
+			<distortionAmount>量</distortionAmount>
+			<distortionCenterX>中心 X</distortionCenterX>
+			<distortionCenterY>中心 Y</distortionCenterY>
+			<distortionAmountX>歪み X</distortionAmountX>
+			<distortionAmountY>歪み Y</distortionAmountY>
+			<distortionScale>倍率</distortionScale>
+			<vignetteEnabled>周辺減光</vignetteEnabled>
+			<vignetteColor>色</vignetteColor>
+			<vignetteCenterX>中心 X</vignetteCenterX>
+			<vignetteCenterY>中心 Y</vignetteCenterY>
+			<vignetteIntensity>強度</vignetteIntensity>
+			<vignetteSmoothness>滑らかさ</vignetteSmoothness>
+			<vignetteRoundness>丸み</vignetteRoundness>
+			<vignetteBlur>ブラー</vignetteBlur>
+			<vignetteDesaturate>脱色</vignetteDesaturate>
+			<chromaticAberrationEnabled>色収差</chromaticAberrationEnabled>
+			<chromaticAberrationColor>色</chromaticAberrationColor>
+			<chromaticAberrationAmount>量</chromaticAberrationAmount>
+		</CinematicLensAberrations>
+		<TonemappingColorGrading>
+			<EyeAdaptation>EyeAdaptation</EyeAdaptation>
+			<MiddleGrey>MiddleGrey</MiddleGrey>
+			<Min>Min</Min>
+			<Max>Max</Max>
+			<Speed>Speed</Speed>
+			<ShowDebug>ShowDebug</ShowDebug>
+			<Tonemapping>トーンマッピング</Tonemapping>
+			<tonemapper>トーンマッパー</tonemapper>
+			<Exposure>露出</Exposure>
+			<Curve>カーブ</Curve>
+			<BlackIn>BlackIn</BlackIn>
+			<WhiteIn>WhiteIn</WhiteIn>
+			<BlackOut>BlackOut</BlackOut>
+			<WhiteOut>WhiteOut</WhiteOut>
+			<WhiteLevel>WhiteLevel</WhiteLevel>
+			<WhiteClip>WhiteClip</WhiteClip>
+			<ColorGrading>カラーグレーディング</ColorGrading>
+			<precision>精度</precision>
+			<Shadows>シャドウ</Shadows>
+			<Midtones>ミッドトーン</Midtones>
+			<Highlights>ハイライト</Highlights>
+			<TemperatureShift>色温度</TemperatureShift>
+			<Tint>色合い</Tint>
+			<Hue>色相</Hue>
+			<Saturation>彩度</Saturation>
+			<Vibrance>鮮やかさ</Vibrance>
+			<Value>明度</Value>
+			<Contrast>コントラスト</Contrast>
+			<Gain>ゲイン</Gain>
+			<Gamma>ガンマ</Gamma>
+			<ChannelMixer>チャンネルミキサー</ChannelMixer>
+			<RedChannel-R>RedChannel-R</RedChannel-R>
+			<RedChannel-G>RedChannel-G</RedChannel-G>
+			<RedChannel-B>RedChannel-B</RedChannel-B>
+			<GreenChannel-R>GreenChannel-R</GreenChannel-R>
+			<GreenChannel-G>GreenChannel-G</GreenChannel-G>
+			<GreenChannel-B>GreenChannel-B</GreenChannel-B>
+			<BlueChannel-R>BlueChannel-R</BlueChannel-R>
+			<BlueChannel-G>BlueChannel-G</BlueChannel-G>
+			<BlueChannel-B>BlueChannel-B</BlueChannel-B>
+			<Curves>カーブ</Curves>
+			<MasterCurve>MasterCurve</MasterCurve>
+			<RedCurve>RedCurve</RedCurve>
+			<GreenCurve>GreenCurve</GreenCurve>
+			<BlueCurve>BlueCurve</BlueCurve>
+			<UseDithering>UseDithering</UseDithering>
+			<LUTEnabled>LUT</LUTEnabled>
+			<Texture>Texture</Texture>
+			<Contribution>Contribution</Contribution>
+		</TonemappingColorGrading>
+		<FilmicLetterBox>
+			<Vertical>垂直方向</Vertical>
+			<Color>色</Color>
+			<CenterX>中心 X</CenterX>
+			<CenterY>中心 Y</CenterY>
+			<Position>幅</Position>
+			<Smoothness>滑らかさ</Smoothness>
+		</FilmicLetterBox>
+		<StylisticFog>
+			<distanceFog>Distance Fog</distanceFog>
+			<FogEndDistance>End Distance</FogEndDistance>
+			<heightFog>Height Fog</heightFog>
+			<BaseHeight>Base Height</BaseHeight>
+			<BaseDensity>Base Density</BaseDensity>
+			<DensityFalloff>Density Falloff</DensityFalloff>
+			<ColorSelectionType>Color Selection Type</ColorSelectionType>
+			<GradientFirstColor>Gradient First Color</GradientFirstColor>
+			<GradientLastColor>Gradient Last Color</GradientLastColor>
+			<FogSkybox>Fog Skybox</FogSkybox>
+		</StylisticFog>
+		
+		<Panes>
+			<AnalogGlitch>アナロググリッチ</AnalogGlitch>
+			<Antialiasing>アンチエイリアス</Antialiasing>
+			<Bloom>ブルーム</Bloom>
+			<Blur>ブラー</Blur>
+			<Bokeh>ボケ</Bokeh>
+			<ColorCorrectionCurves>カラーカーブ</ColorCorrectionCurves>
+			<ColorCorrectionLut>カラーコレクション LUT</ColorCorrectionLut>
+			<Contrast>コントラスト</Contrast>
+			<Crease>輪郭強調</Crease>
+			<DepthOfField>深度ブラー</DepthOfField>
+			<DigitalGlitch>デジタルグリッチ</DigitalGlitch>
+			<EdgeDetect>輪郭検出</EdgeDetect>
+			<Fisheye>魚眼レンズ</Fisheye>
+			<GlobalFog>フォグ</GlobalFog>
+			<Grayscale>グレースケール</Grayscale>
+			<MotionBlur>モーションブラー</MotionBlur>
+			<NoiseAndGrain>ノイズ</NoiseAndGrain>
+			<Obscurance>Obscurance</Obscurance>
+			<Sepia>セピア</Sepia>
+			<SunShafts>サンシャフト</SunShafts>
+			<TiltShiftHdr>ティルトシフト</TiltShiftHdr>
+			<Vignetting>光学ブラー</Vignetting>
+			<Isoline>等値線</Isoline>
+			<CinematicBloom>ブルーム (Cinematic)</CinematicBloom>
+			<CinematicDepthOfField>深度ブラー (Cinematic)</CinematicDepthOfField>
+			<CinematicLensAberrations>レンズ収差</CinematicLensAberrations>
+			<TonemappingColorGrading>トーンマッピング/カラーグレーディング</TonemappingColorGrading>
+			<FilmicLetterBox>レターボックス</FilmicLetterBox>
+			<StylisticFog>StylisticFog</StylisticFog>
+			<HDR>HDR</HDR>
+			<Beautify>Beautify</Beautify>
+		</Panes>
+
+		<Model>
+			<gizmoPan>移動</gizmoPan>
+			<gizmoPanX>X</gizmoPanX>
+			<gizmoPanY>Y</gizmoPanY>
+			<gizmoPanZ>Z</gizmoPanZ>
+			<gizmoRotate>回転</gizmoRotate>
+			<gizmoRotationX>Rotation X</gizmoRotationX>
+			<gizmoRotationY>Rotation Y</gizmoRotationY>
+			<gizmoRotationZ>Rotation Z</gizmoRotationZ>
+			<gizmoScale>スケール</gizmoScale>
+			<gizmoScaleX>Scale X</gizmoScaleX>
+			<gizmoScaleY>Scale Y</gizmoScaleY>
+			<gizmoScaleZ>Scale Z</gizmoScaleZ>
+			<gizmoScaleAllAxes>全軸スケール</gizmoScaleAllAxes>
+			<CastShadow>影</CastShadow>
+			<CastShadowON>影:有効</CastShadowON>
+			<CastShadowOFF>影:無効</CastShadowOFF>
+			<modelDelete>削除</modelDelete>
+			<modelCopy>複製</modelCopy>
+		</Model>
+
+		<Light>
+			<lightType>種類</lightType>
+			<lightEnable>有効</lightEnable>
+			<lightRotationX>回転Ｘ</lightRotationX>
+			<lightRotationY>回転Ｙ</lightRotationY>
+			<lightRotationZ>回転Ｚ</lightRotationZ>
+			<lightResetPos>位置リセット</lightResetPos>
+			<lightIntensity>光量</lightIntensity>
+			<lightBounceIntensity>弾み強度</lightBounceIntensity>
+			<m_baseCullingMask>マスク</m_baseCullingMask>
+			<lightRange>範囲</lightRange>
+			<spotLightAngle>スポットライト角度</spotLightAngle>
+			<areaLightWidth>地域の幅</areaLightWidth>
+			<areaLightHeight>地域の高さ</areaLightHeight>
+			<lightColor>色</lightColor>
+			<shadows>影種類</shadows>
+			<shadowStrength>影の強さ</shadowStrength>
+			<shadowResolution>影の解像度</shadowResolution>
+			<shadowBias>影バイアス</shadowBias>
+			<shadowNormalBias>影法線バイアス</shadowNormalBias>
+			<shadowNearPlane>shadowNearPlane</shadowNearPlane>
+		</Light>
+
+		<LightShafts>
+			<Enable>表示</Enable>
+			<lightEnable>ライト有効</lightEnable>
+			<lightShahtsEnable>ボリュームライト有効</lightShahtsEnable>
+			<m_SizeX>範囲 X</m_SizeX>
+			<m_SizeY>範囲 Y</m_SizeY>
+			<m_SizeZ>範囲 Z</m_SizeZ>
+			<m_SpotNear>始点</m_SpotNear>
+			<m_SpotFar>終点</m_SpotFar>
+			<m_LightShaftsCullingMask>マスク</m_LightShaftsCullingMask>
+			<m_Colored>Colored</m_Colored>
+			<m_Brightness>明るさ</m_Brightness>
+			<m_BrightnessColored>Brightness Colored</m_BrightnessColored>
+			<m_ColorBalance>Color Balance</m_ColorBalance>
+			<m_DepthThreshold>深度敷居</m_DepthThreshold>
+		</LightShafts>
+
+		<Camera>
+			<cameraPositionX>Ｘ</cameraPositionX>
+			<cameraPositionY>Ｙ</cameraPositionY>
+			<cameraPositionZ>Ｚ</cameraPositionZ>
+			<cameraRotationX>カメラ回転Ｘ</cameraRotationX>
+			<cameraRotationY>カメラ回転Ｙ</cameraRotationY>
+			<cameraRotationZ>カメラ回転Ｚ</cameraRotationZ>
+			<cameraFov>カメラ視野</cameraFov>
+			<cameraDistance>カメラ距離</cameraDistance>
+			<cameraAllSettings>詳細設定</cameraAllSettings>
+			<cameraSavePosition>カメラ設定保存</cameraSavePosition>
+			<cameraRestorePosition>カメラ設定復元</cameraRestorePosition>
+			<cameraResetPosition>カメラ設定リセット</cameraResetPosition>
+		</Camera>
+
+		<Equip>
+			<face>顔</face>
+			<teeth>歯</teeth>
+			<frontHair>前髪</frontHair>
+			<backHair>後髪</backHair>
+			<sideHair>横髪</sideHair>
+			<extensions>エクステ髪</extensions>
+			<ahoge>アホ毛</ahoge>
+			<hat>帽子</hat>
+			<headdress>ヘッドドレス</headdress>
+			<top>トップス</top>
+			<bottom>ボトムス</bottom>
+			<onePiece>ワンピース</onePiece>
+			<swimsuit>水着</swimsuit>
+			<bra>ブラジャー</bra>
+			<panties>パンツ</panties>
+			<socks>靴下</socks>
+			<shoes>靴</shoes>
+			<hairAccessory>前髪アクセ</hairAccessory>
+			<glasses>メガネ</glasses>
+			<eyeMask>アイマスク</eyeMask>
+			<nose>鼻</nose>
+			<ears>耳</ears>
+			<gloves>手袋</gloves>
+			<necklace>ネックレス</necklace>
+			<choker>チョーカー</choker>
+			<ribbon>リボン</ribbon>
+			<nipples>乳首</nipples>
+			<arms>腕</arms>
+			<belly>へそ</belly>
+			<ankles>足首</ankles>
+			<back>背中</back>
+			<tail>しっぽ</tail>
+			<genitals>前穴</genitals>
+			<pubicHair>アンダーヘア</pubicHair>
+			<itemHand>手</itemHand>
+			<itemUpper>上半身</itemUpper>
+			<itemLower>下半身</itemLower>
+			<itemVaginal>前穴</itemVaginal>
+			<itemAnal>後穴</itemAnal>
+			<backgroundObject>メイド</backgroundObject>
+			<background>背景</background>
+			<myRoomObject>マイルーム</myRoomObject>
+		</Equip>
+
+		<UI>
+			<transformFromMaid>フォーカス変換</transformFromMaid>
+			<reloadMaids>リロード</reloadMaids>
+			<dragSource>ドラッグ</dragSource>
+			<effectSetting>エフェクト設定</effectSetting>
+			<envSetting>環境設定</envSetting>
+			<modelSetting>モデル設定</modelSetting>
+			<dataSetting>データ設定</dataSetting>
+			<save>セーブ</save>
+			<load>ロード</load>
+			<delete>削除</delete>
+			<reset>リセット</reset>
+			<name>名前</name>
+			<background>背景</background>
+			<addModel>モデル追加</addModel>
+			<addLight>ライト追加</addLight>
+			<addLightShafts>ボリュームライト追加</addLightShafts>
+			<model>モデル</model>
+			<light>追加ライト</light>
+			<lightShafts>ボリュームライト</lightShafts>
+			<mainLight>メインライト</mainLight>
+			<loadTarget>ロード対象</loadTarget>
+			<loadEffects>エフェクト</loadEffects>>
+			<loadLights>ライト</loadLights>
+			<loadModels>モデル</loadModels>
+			<loadCamera>カメラ</loadCamera>
+			<loadMisc>その他</loadMisc>
+			<language>言語</language>
+			<ForceUpdate>優先モード(競合対策)</ForceUpdate>
+			<FixTargetPosition>位置補正</FixTargetPosition>
+			<FixTargetPositionX>X軸</FixTargetPositionX>
+			<FixTargetPositionY>Y軸</FixTargetPositionY>
+			<FixTargetPositionZ>Z軸</FixTargetPositionZ>
+			<LookAtMaid>カメラをメイドに向ける</LookAtMaid>
+			<LookAtMaidDanceMode>ダンスモード</LookAtMaidDanceMode>
+		</UI>
+
+		<Beautify>
+			<enableCompare>Compare</enableCompare>
+			<compareMode>Compare Mode</compareMode>
+			<compareLineAngle>Compare Line Angle</compareLineAngle>
+			<compareLineWidth>Compare Line Width</compareLineWidth>
+			<enableSharpen>Sharpen</enableSharpen>
+			<sharpenIntensity>Sharpen Intensity</sharpenIntensity>
+			<sharpenDepthThreshold>Sharpen Depth Threshold</sharpenDepthThreshold>
+			<sharpenMinDepth>Sharpen Minimum Depth</sharpenMinDepth>
+			<sharpenMaxDepth>Sharpen Maximum Depth</sharpenMaxDepth>
+			<sharpenRelaxation>Sharpen Relaxation</sharpenRelaxation>
+			<sharpenClamp>Sharpen Clamp</sharpenClamp>
+			<sharpenMotionSensibility>Sharpen Motion Sensibility</sharpenMotionSensibility>
+			<enableColorTweaks>Color Tweaks</enableColorTweaks>
+			<daltonize>Daltonize</daltonize>
+			<sepia>Sepia</sepia>
+			<saturate>Saturation</saturate>
+			<brightness>Brightness</brightness>
+			<contrast>Contrast</contrast>
+			<tintColor>Tint Color</tintColor>
+			<tonemap>Tone Map</tonemap>
+			<tonemapExposurePre>Tone Mapping Exposure Pre</tonemapExposurePre>
+			<tonemapBrightnessPost>Tone Mapping Brightness Post</tonemapBrightnessPost>
+			<enableLut>LUT</enableLut>
+			<lut>Lut</lut>
+			<lutIntensity>LUT Intensity</lutIntensity>
+			<lutTexture>LUT Texture</lutTexture>
+			<lutTextureFilename>LUT Texture Filename</lutTextureFilename>
+			<enableBloomFlares>Bloom And Flares</enableBloomFlares>
+			<bloomIntensity>Bloom Intensity</bloomIntensity>
+			<bloomThreshold>Bloom Threshold</bloomThreshold>
+			<bloomMaxBrightness>Bloom Max Brightness</bloomMaxBrightness>
+			<bloomDepthAtten>Bloom Depth Attenuation</bloomDepthAtten>
+			<bloomAntiflicker>Bloom Anti-flicker</bloomAntiflicker>
+			<bloomUltra>Ultra Bloom</bloomUltra>
+			<bloomDebug>Bloom Debug</bloomDebug>
+			<bloomCustomize>Bloom Customize</bloomCustomize>
+			<bloomWeight0>Bloom Weight 0</bloomWeight0>
+			<bloomWeight1>Bloom Weight 1</bloomWeight1>
+			<bloomWeight2>Bloom Weight 2</bloomWeight2>
+			<bloomWeight3>Bloom Weight 3</bloomWeight3>
+			<bloomWeight4>Bloom Weight 4</bloomWeight4>
+			<bloomWeight5>Bloom Weight 5</bloomWeight5>
+			<bloomBoost0>Bloom Boost 0</bloomBoost0>
+			<bloomBoost1>Bloom Boost 1</bloomBoost1>
+			<bloomBoost2>Bloom Boost 2</bloomBoost2>
+			<bloomBoost3>Bloom Boost 3</bloomBoost3>
+			<bloomBoost4>Bloom Boost 4</bloomBoost4>
+			<bloomBoost5>Bloom Boost 5</bloomBoost5>
+			<anamorphicFlaresIntensity>Anamorphic Flares Intensity</anamorphicFlaresIntensity>
+			<anamorphicFlaresThreshold>Anamorphic Flares Threshold</anamorphicFlaresThreshold>
+			<anamorphicFlaresVertical>Anamorphic Flares Vertical</anamorphicFlaresVertical>
+			<anamorphicFlaresSpread>Anamorphic Flares Spread</anamorphicFlaresSpread>
+			<anamorphicFlaresDepthAtten>Anamorphic Flares Depth Attenuation</anamorphicFlaresDepthAtten>
+			<anamorphicFlaresAntiflicker>Anamorphic Flares Anti-flicker</anamorphicFlaresAntiflicker>
+			<anamorphicFlaresUltra>Ultra Anamorphic Flares</anamorphicFlaresUltra>
+			<anamorphicFlaresTint>Anamorphic Flares Tint</anamorphicFlaresTint>
+			<sunFlaresIntensity>Sun Flares Intensity</sunFlaresIntensity>
+			<sunFlaresTint>Sun Flares Tint</sunFlaresTint>
+			<sunFlaresSolarWindSpeed>Sun Flares Solar Wind Speed</sunFlaresSolarWindSpeed>
+			<sunFlaresRotationDeadZone>Sun Flares Rotation Dead Zone</sunFlaresRotationDeadZone>
+			<sunFlaresDownsampling>Sun Flares Downsampling</sunFlaresDownsampling>
+			<sunFlaresLayerMask>Sun Flares Layer Mask</sunFlaresLayerMask>
+			<sunFlaresSunIntensity>Sun Flares Sun Intensity</sunFlaresSunIntensity>
+			<sunFlaresSunDiskSize>Sun Flares Sun Disk Size</sunFlaresSunDiskSize>
+			<sunFlaresSunRayDiffractionIntensity>Sun Flares Sun Ray Diffraction Intensity</sunFlaresSunRayDiffractionIntensity>
+			<sunFlaresSunRayDiffractionThreshold>Sun Flares Sun Ray Diffraction Threshold</sunFlaresSunRayDiffractionThreshold>
+			<sunFlaresCoronaRays1Length>Sun Flares Corona Rays 1 Length</sunFlaresCoronaRays1Length>
+			<sunFlaresCoronaRays1Streaks>Sun Flares Corona Rays 1 Streaks</sunFlaresCoronaRays1Streaks>
+			<sunFlaresCoronaRays1Spread>Sun Flares Corona Rays 1 Spread</sunFlaresCoronaRays1Spread>
+			<sunFlaresCoronaRays1AngleOffset>Sun Flares Corona Rays 1 Angle Offset</sunFlaresCoronaRays1AngleOffset>
+			<sunFlaresCoronaRays2Length>Sun Flares Corona Rays 2 Length</sunFlaresCoronaRays2Length>
+			<sunFlaresCoronaRays2Streaks>Sun Flares Corona Rays 2 Streaks</sunFlaresCoronaRays2Streaks>
+			<sunFlaresCoronaRays2Spread>Sun Flares Corona Rays 2 Spread</sunFlaresCoronaRays2Spread>
+			<sunFlaresCoronaRays2AngleOffset>Sun Flares Corona Rays 2 Angle Offset</sunFlaresCoronaRays2AngleOffset>
+			<sunFlaresGhosts1Size>Sun Flares Ghosts 1 Size</sunFlaresGhosts1Size>
+			<sunFlaresGhosts1Offset>Sun Flares Ghosts 1 Offset</sunFlaresGhosts1Offset>
+			<sunFlaresGhosts1Brightness>Sun Flares Ghosts 1 Brightness</sunFlaresGhosts1Brightness>
+			<sunFlaresGhosts2Size>Sun Flares Ghosts 2 Size</sunFlaresGhosts2Size>
+			<sunFlaresGhosts2Offset>Sun Flares Ghosts 2 Offset</sunFlaresGhosts2Offset>
+			<sunFlaresGhosts2Brightness>Sun Flares Ghosts 2 Brightness</sunFlaresGhosts2Brightness>
+			<sunFlaresGhosts3Size>Sun Flares Ghosts 3 Size</sunFlaresGhosts3Size>
+			<sunFlaresGhosts3Brightness>Sun Flares Ghosts 3 Brightness</sunFlaresGhosts3Brightness>
+			<sunFlaresGhosts3Offset>Sun Flares Ghosts 3 Offset</sunFlaresGhosts3Offset>
+			<sunFlaresGhosts4Size>Sun Flares Ghosts 4 Size</sunFlaresGhosts4Size>
+			<sunFlaresGhosts4Offset>Sun Flares Ghosts 4 Offset</sunFlaresGhosts4Offset>
+			<sunFlaresGhosts4Brightness>Sun Flares Ghosts 4 Brightness</sunFlaresGhosts4Brightness>
+			<sunFlaresHaloOffset>Sun Flares Halo Offset</sunFlaresHaloOffset>
+			<sunFlaresHaloAmplitude>Sun Flares Halo Amplitude</sunFlaresHaloAmplitude>
+			<sunFlaresHaloIntensity>Sun Flares Halo Intensity</sunFlaresHaloIntensity>
+			<enableLensDirt>Lens Dirt</enableLensDirt>
+			<lensDirtIntensity>Lens Dirt Intensity</lensDirtIntensity>
+			<lensDirtThreshold>Lens Dirt Threshold</lensDirtThreshold>
+			<lensDirtTexture>Lens Dirt Texture</lensDirtTexture>
+			<lensDirtTextureFilename>Lens Dirt Texture Filename</lensDirtTextureFilename>
+			<lensDirtSpread>Lens Dirt Spread</lensDirtSpread>
+			<enableEyeAdaptation>Eye Adaptation</enableEyeAdaptation>
+			<eyeAdaptation>Eye Adaptation</eyeAdaptation>
+			<eyeAdaptationMinExposure>Eye Adaptation Min Exposure</eyeAdaptationMinExposure>
+			<eyeAdaptationMaxExposure>Eye Adaptation Max Exposure</eyeAdaptationMaxExposure>
+			<eyeAdaptationSpeedToLight>Eye Adaptation Speed to Light</eyeAdaptationSpeedToLight>
+			<eyeAdaptationSpeedToDark>Eye Adaptation Speed to Dark</eyeAdaptationSpeedToDark>
+			<enablePurkinje>Purkinje</enablePurkinje>
+			<purkinje>Purkinje</purkinje>
+			<purkinjeAmount>Purkinje Amount</purkinjeAmount>
+			<purkinjeLuminanceThreshold>Purkinje Luminance Threshold</purkinjeLuminanceThreshold>
+			<enableVignetting>Vignetting</enableVignetting>
+			<vignettingOuterRing>Vignetting Outer Ring</vignettingOuterRing>
+			<vignettingInnerRing>Vignetting Inner Ring</vignettingInnerRing>
+			<vignettingFade>Vignetting Fade</vignettingFade>
+			<vignettingCircularShape>Vignetting Circular Shape</vignettingCircularShape>
+			<vignettingAspectRatio>Vignetting Aspect Ratio</vignettingAspectRatio>
+			<vignettingBlink>Vignetting Blink</vignettingBlink>
+			<vignettingColor>Vignetting Color</vignettingColor>
+			<vignettingMask>Vignetting Mask</vignettingMask>
+			<vignettingMaskFilename>Vignetting Mask Filename</vignettingMaskFilename>
+			<enableDepthOfField>Depth of Field</enableDepthOfField>
+			<depthOfField>Depth of Field</depthOfField>
+			<depthOfFieldDebug>Depth of Field Debug</depthOfFieldDebug>
+			<depthOfFieldFocusMode>Depth of Field Focus Mode</depthOfFieldFocusMode>
+			<depthOfFieldAutofocusMinDistance>Depth of Field Autofocus Min Distance</depthOfFieldAutofocusMinDistance>
+			<depthOfFieldAutofocusMaxDistance>Depth of Field Autofocus Max Distance</depthOfFieldAutofocusMaxDistance>
+			<depthofFieldAutofocusViewportPoint_X>Depth of Field Autofocus Viewport Point X</depthofFieldAutofocusViewportPoint_X>
+			<depthofFieldAutofocusViewportPoint_Y>Depth of Field Autofocus Viewport Point Y</depthofFieldAutofocusViewportPoint_Y>
+			<depthOfFieldAutofocusLayerMask>Depth of Field Autofocus Layer Mask</depthOfFieldAutofocusLayerMask>
+			<depthOfFieldExclusionLayerMask>Depth of Field Exclusion Layer Mask</depthOfFieldExclusionLayerMask>
+			<depthOfFieldExclusionLayerMaskDownsampling>Depth of Field Exclusion Layer Mask Downsampling</depthOfFieldExclusionLayerMaskDownsampling>
+			<depthOfFieldTransparencySupport>Depth of Field Transparency Support</depthOfFieldTransparencySupport>
+			<depthOfFieldTransparencyLayerMask>Depth of Field Transparency Layer Mask</depthOfFieldTransparencyLayerMask>
+			<depthOfFieldTransparencySupportDownsampling>Depth of Field Transparency Support Downsampling</depthOfFieldTransparencySupportDownsampling>
+			<depthOfFieldExclusionBias>Depth of Field Exclusion Bias</depthOfFieldExclusionBias>
+			<depthOfFieldDistance>Depth of Field Distance</depthOfFieldDistance>
+			<depthOfFieldFocusSpeed>Depth of Field Focus Speed</depthOfFieldFocusSpeed>
+			<depthOfFieldDownsampling>Depth of Field Downsampling</depthOfFieldDownsampling>
+			<depthOfFieldMaxSamples>Depth of Field Max Samples</depthOfFieldMaxSamples>
+			<depthOfFieldFocalLength>Depth of Field Focal Length</depthOfFieldFocalLength>
+			<depthOfFieldAperture>Depth of Field Aperture</depthOfFieldAperture>
+			<depthOfFieldForegroundBlur>Depth of Field Foreground Blur</depthOfFieldForegroundBlur>
+			<depthOfFieldForegroundBlurHQ>Depth of Field Foreground Blur HQ</depthOfFieldForegroundBlurHQ>
+			<depthOfFieldForegroundDistance>Depth of Field Foreground Distance</depthOfFieldForegroundDistance>
+			<depthOfFieldBokeh>Depth of Field Bokeh</depthOfFieldBokeh>
+			<depthOfFieldBokehThreshold>Depth of Field Bokeh Threshold</depthOfFieldBokehThreshold>
+			<depthOfFieldBokehIntensity>Depth of Field Bokeh Intensity</depthOfFieldBokehIntensity>
+			<depthOfFieldMaxBrightness>Depth of Field Max Brightness</depthOfFieldMaxBrightness>
+			<depthOfFieldMaxDistance>Depth of Field Max Distance</depthOfFieldMaxDistance>
+			<depthOfFieldFilterMode>Depth of Field Filter Mode</depthOfFieldFilterMode>
+			<enableOutline>Outline</enableOutline>
+			<outline>Outline</outline>
+			<outlineColor>Outline Color</outlineColor>
+		</Beautify>
+	</Translation>
+</Translations>
