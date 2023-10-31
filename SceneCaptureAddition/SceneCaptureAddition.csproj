@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net3.5</TargetFramework>
+    <Deterministic>False</Deterministic>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <ProjectGuid>{4D5C0123-4C6D-404D-9C28-EDAD96B2D22A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>COM3D2.SceneCaptureAddition.Plugin</RootNamespace>
+    <AssemblyName>COM3D2.SceneCaptureAddition.Plugin</AssemblyName>
+    <COM3D2InstallPath>D:\Program Files\Others\COM3D2_Minisize\</COM3D2InstallPath>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x64</Platform>
+    <OutputPath>bin\$(Configuration)\$(Platform)</OutputPath>
+    <StartProgram>$(COM3D2InstallPath)\COM3D2x64.exe</StartProgram>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RestoreSources>$(RestoreSources);https://nuget.bepinex.dev/v3/index.json</RestoreSources>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="BepInEx.Analyzers" Version="1.0.8" targetFramework="net35" developmentDependency="true">
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="BepInEx.BaseLib" Version="5.4.19" targetFramework="net35" />
+    <PackageReference Include="BepInEx.Core" Version="5.4.19" targetFramework="net35" />
+    <PackageReference Include="HarmonyX" Version="2.7.0" targetFramework="net35" />
+    <PackageReference Include="Mono.Cecil" Version="0.10.4" targetFramework="net35" />
+    <PackageReference Include="MonoMod.RuntimeDetour" Version="21.12.13.1" targetFramework="net35" />
+    <PackageReference Include="MonoMod.Utils" Version="21.12.13.1" targetFramework="net35" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>$(COM3D2InstallPath)\COM3D2x64_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Assembly-CSharp-firstpass">
+      <HintPath>$(COM3D2InstallPath)\COM3D2x64_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>$(COM3D2InstallPath)\COM3D2x64_Data\Managed\UnityEngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>$(COM3D2InstallPath)\COM3D2x64_Data\Managed\UnityEngine.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="COM3D2.SceneCapture.Plugin, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\COM3D2.SceneCapture.Plugin.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <ProjectReference Include="..\PostProcessing\PostProcessing.csproj">
+      <Project>{089bd52b-c0f6-4fae-a6ec-a8be72c25bef}</Project>
+      <Name>PostProcessing</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <PostBuildEvent>
+      rd "$(COM3D2InstallPath)\BepinEx\plugins\vsout_$(MSBuildProjectName)"
+      mklink /J "$(COM3D2InstallPath)\BepinEx\plugins\vsout_$(MSBuildProjectName)" .
+    </PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

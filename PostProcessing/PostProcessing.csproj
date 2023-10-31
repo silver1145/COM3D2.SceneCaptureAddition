@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net3.5</TargetFramework>
+    <Deterministic>False</Deterministic>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <ProjectGuid>{089BD52B-C0F6-4FAE-A6EC-A8BE72C25BEF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>COM3D2.PostProcessing.Plugin</RootNamespace>
+    <AssemblyName>COM3D2.PostProcessing.Plugin</AssemblyName>
+    <COM3D2InstallPath>D:\Program Files\Others\COM3D2_Minisize\</COM3D2InstallPath>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x64</Platform>
+    <OutputPath>bin\$(Configuration)\$(Platform)</OutputPath>
+    <StartProgram>$(COM3D2InstallPath)\COM3D2x64.exe</StartProgram>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <DefineConstants>TRACE;DEBUG;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_4;UNITY_5_6;UNITY_5;UNITY_64;UNITY_STANDALONE_WIN;UNITY_STANDALONE;UNITY_POST_PROCESSING_STACK_V2</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_4;UNITY_5_6;UNITY_5;UNITY_64;UNITY_STANDALONE_WIN;UNITY_STANDALONE;UNITY_POST_PROCESSING_STACK_V2</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RestoreSources>$(RestoreSources);https://nuget.bepinex.dev/v3/index.json</RestoreSources>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="BepInEx.Analyzers" Version="1.0.8" targetFramework="net35" developmentDependency="true">
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="BepInEx.BaseLib" Version="5.4.19" targetFramework="net35" />
+    <PackageReference Include="BepInEx.Core" Version="5.4.19" targetFramework="net35" />
+    <PackageReference Include="HarmonyX" Version="2.7.0" targetFramework="net35" />
+    <PackageReference Include="Mono.Cecil" Version="0.10.4" targetFramework="net35" />
+    <PackageReference Include="MonoMod.RuntimeDetour" Version="21.12.13.1" targetFramework="net35" />
+    <PackageReference Include="MonoMod.Utils" Version="21.12.13.1" targetFramework="net35" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>$(COM3D2InstallPath)\COM3D2x64_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Assembly-CSharp-firstpass">
+      <HintPath>$(COM3D2InstallPath)\COM3D2x64_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>$(COM3D2InstallPath)\COM3D2x64_Data\Managed\UnityEngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>$(COM3D2InstallPath)\COM3D2x64_Data\Managed\UnityEngine.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+</Project>
