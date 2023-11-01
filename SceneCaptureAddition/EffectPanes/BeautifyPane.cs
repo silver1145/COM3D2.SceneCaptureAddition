@@ -3,12 +3,14 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
+using UnityEngine.Rendering.PostProcessing;
 
 namespace CM3D2.SceneCapture.Plugin
 {
     internal class BeautifyPane : BasePane
     {
         private CustomButton ResetButton;
+        private CustomComboBox antialiasingBox;
         private CustomToggleButton enableCompareToggle;
         #region Compare settings
         private CustomToggleButton compareModeToggle;
@@ -184,6 +186,7 @@ namespace CM3D2.SceneCapture.Plugin
         private CustomColorPicker outlineColorPicker;
         #endregion
 
+        public PostProcessLayer.Antialiasing antialiasing => (PostProcessLayer.Antialiasing)Enum.Parse(typeof(PostProcessLayer.Antialiasing), antialiasingBox.SelectedItem);
         public bool enableCompare => enableCompareToggle.Value;
         #region Compare settings
         public bool compareMode => compareModeToggle.Value;
@@ -375,6 +378,10 @@ namespace CM3D2.SceneCapture.Plugin
                 Reset();
             };
             ChildControls.Add(ResetButton);
+            antialiasingBox = new CustomComboBox(Enum.GetNames(typeof(PostProcessLayer.Antialiasing)));
+            antialiasingBox.Text = Translation.GetText("Beautify", "antialiasing");
+            antialiasingBox.SelectedIndex = (int)BeautifyDef.beautifyEffect.antialiasing;
+            ChildControls.Add(antialiasingBox);
             enableCompareToggle = new CustomToggleButton(BeautifyDef.beautifyEffect.enableCompare, "toggle");
             enableCompareToggle.Text = Translation.GetText("Beautify", "enableCompare");
             ChildControls.Add(enableCompareToggle);
@@ -860,6 +867,7 @@ namespace CM3D2.SceneCapture.Plugin
         {
             GUIUtil.AddResetButton(this, ResetButton);
             GUIUtil.AddGUICheckbox(this, enableCompareToggle);
+            GUIUtil.AddGUICheckbox(this, antialiasingBox);
             if (enableCompare)
             {
                 GUIUtil.AddGUICheckbox(this, compareModeToggle);
@@ -1051,6 +1059,7 @@ namespace CM3D2.SceneCapture.Plugin
 
         public override void Reset()
         {
+            antialiasingBox.SelectedIndex = 1;
             enableCompareToggle.Value = BeautifyDef.enableCompare;
             #region Compare settings
             compareModeToggle.Value = BeautifyDef.compareMode;

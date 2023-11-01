@@ -520,6 +520,7 @@
 		</UI>
 
 		<Beautify>
+			<antialiasing>Antialiasing</antialiasing>
 			<enableCompare>Compare</enableCompare>
 			<compareMode>Compare Mode</compareMode>
 			<compareLineAngle>Compare Line Angle</compareLineAngle>
@@ -1191,6 +1192,7 @@
 		</UI>
 
 		<Beautify>
+			<antialiasing>Antialiasing</antialiasing>
 			<enableCompare>Compare</enableCompare>
 			<compareMode>Compare Mode</compareMode>
 			<compareLineAngle>Compare Line Angle</compareLineAngle>

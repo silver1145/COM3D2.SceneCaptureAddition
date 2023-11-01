@@ -1,5 +1,7 @@
 ﻿using BeautifyForPPS;
 using UnityEngine;
+using UnityEngine.Rendering.PostProcessing;
+using static UnityEngine.Rendering.PostProcessing.PostProcessLayer;
 
 namespace CM3D2.SceneCapture.Plugin
 {
@@ -7,6 +9,7 @@ namespace CM3D2.SceneCapture.Plugin
     {
         public static Beautify beautifyEffect;
         public static bool loadPreset { get; set; }
+        public static PostProcessLayer.Antialiasing antialiasing { get; set; }
         public static bool enableCompare { get; set; }
         #region Compare settings
         public static bool compareMode { get; set; }
@@ -378,6 +381,7 @@ namespace CM3D2.SceneCapture.Plugin
 
         public static void InitMemberByInstance(Beautify lb)
         {
+            antialiasing = lb.antialiasing;
             enableCompare = lb.enableCompare;
             #region Compare settings
             compareMode = lb.compareMode;
@@ -565,6 +569,7 @@ namespace CM3D2.SceneCapture.Plugin
             {
                 beautifyEffect.enabled = beautifyPane.IsEnabled;
             }
+            beautifyEffect.antialiasing = beautifyPane.antialiasing;
             beautifyEffect.enableCompare = beautifyPane.enableCompare;
             #region Compare settings
             beautifyEffect.compareMode = beautifyPane.compareMode;
@@ -775,6 +780,7 @@ namespace CM3D2.SceneCapture.Plugin
         {
             if (beautifyEffect != null)
             {
+                beautifyEffect.antialiasing = PostProcessLayer.Antialiasing.FastApproximateAntialiasing;
                 beautifyEffect.enableCompare = enableCompare;
                 #region Compare settings
                 beautifyEffect.compareMode = compareMode;

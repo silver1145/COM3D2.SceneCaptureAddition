@@ -22,6 +22,7 @@ namespace CM3D2.SceneCapture.Plugin
                 return _beautify;
             }
         }
+        public PostProcessLayer.Antialiasing antialiasing = PostProcessLayer.Antialiasing.FastApproximateAntialiasing;
         public bool enableCompare = false;
         #region Compare settings
         public bool compareMode = false;
@@ -227,9 +228,14 @@ namespace CM3D2.SceneCapture.Plugin
             layer = cachedCamera.gameObject.GetOrAddComponent<PostProcessLayer>();
             layer.Init(COM3D2.PostProcessing.Plugin.Utils.AssetLoader.postProcessResources);
             layer.volumeLayer = -1;
-            layer.antialiasingMode = PostProcessLayer.Antialiasing.FastApproximateAntialiasing;
             layer.fastApproximateAntialiasing.fastMode = false;
             layer.fastApproximateAntialiasing.keepAlpha = true;
+            layer.subpixelMorphologicalAntialiasing.quality = SubpixelMorphologicalAntialiasing.Quality.High;
+            layer.temporalAntialiasing.jitterSpread = 0.7f;
+            layer.temporalAntialiasing.stationaryBlending = 0.8f;
+            layer.temporalAntialiasing.motionBlending = 0.8f;
+            layer.temporalAntialiasing.sharpness = 0.1f;
+            layer.antialiasingMode = PostProcessLayer.Antialiasing.SubpixelMorphologicalAntialiasing;
         }
 
         private void OnDisable()
@@ -244,6 +250,10 @@ namespace CM3D2.SceneCapture.Plugin
             if (beautify == null)
             {
                 return;
+            }
+            if (layer != null)
+            {
+                layer.antialiasingMode = antialiasing;
             }
             beautify.compareMode.overrideState
                 = beautify.compareLineAngle.overrideState
