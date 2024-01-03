@@ -866,8 +866,8 @@ namespace CM3D2.SceneCapture.Plugin
         public override void ShowPane()
         {
             GUIUtil.AddResetButton(this, ResetButton);
-            GUIUtil.AddGUICheckbox(this, enableCompareToggle);
             GUIUtil.AddGUICheckbox(this, antialiasingBox);
+            GUIUtil.AddGUICheckbox(this, enableCompareToggle);
             if (enableCompare)
             {
                 GUIUtil.AddGUICheckbox(this, compareModeToggle);
