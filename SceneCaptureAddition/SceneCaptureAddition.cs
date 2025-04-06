@@ -35,6 +35,7 @@ namespace COM3D2.SceneCaptureAddition.Plugin
             Harmony.CreateAndPatchAll(typeof(EffectManagerPatch));
             Harmony.CreateAndPatchAll(typeof(EffectWindowPatch));
             Harmony.CreateAndPatchAll(typeof(SCInstancesPatch));
+            Harmony.CreateAndPatchAll(typeof(ScreenshotPatch));
         }
     }
 }
